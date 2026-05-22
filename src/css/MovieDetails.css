@@ -1,0 +1,132 @@
+.movie-details {
+  display: flex;
+  padding: 2rem;
+}
+
+.movie-details-poster {
+  margin-right: 2rem;
+}
+
+.movie-details-poster img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.movie-details-info {
+  max-width: 600px;
+}
+
+.back-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.movie-details-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.movie-details-info p {
+  margin-bottom: 1rem;
+}
+
+.streaming-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.streaming-section h3 {
+  margin: 0 0 1rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.streaming-providers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.streaming-provider {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.streaming-provider:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.streaming-provider img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.streaming-provider span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.no-streaming {
+  color: #999;
+  font-style: italic;
+  margin: 0;
+}
+
+.justwatch-link {
+  display: inline-block;
+  color: #00a8e1;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.justwatch-link:hover {
+  text-decoration: underline;
+}
+
+.watch-trailer-button {
+  display: inline-block;
+  background-color: #666;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.watch-trailer-button:hover {
+  background-color: #888;
+}
+
+.watch-full-movie-button {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: background-color 0.2s;
+}
+
+.watch-full-movie-button:hover {
+  background-color: #218838;
+}

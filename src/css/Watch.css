@@ -1,0 +1,78 @@
+.watch-page {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  background-color: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.no-video-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1a1a;
+  color: #666;
+}
+
+.watch-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.watch-meta {
+  display: flex;
+  gap: 1.5rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.overview {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  max-width: 800px;
+  color: #ddd;
+}
+
+.recommendations-section {
+  margin-top: 4rem;
+}
+
+.recommendations-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.watch-loading, .watch-error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+}
